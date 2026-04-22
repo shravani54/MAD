@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assignment 6"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buttons"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckBox"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text Button"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Button"/>
+
+    </LinearLayout>
+
+</ScrollView>

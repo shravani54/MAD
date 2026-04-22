@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="Marks"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Shravani" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="85" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Shweta" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="90" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="Patil" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="88" />
+    </TableRow>
+
+</TableLayout>
